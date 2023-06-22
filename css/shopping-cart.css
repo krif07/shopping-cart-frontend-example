@@ -1,0 +1,23 @@
+.product-detail {
+    width: 360px;
+    padding: 24px ;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+}
+.shopping-title {
+    font-size: var(--lg);
+    font-weight: bold;
+}
+.title-container {
+    display: flex;
+    margin-right: 14px;
+}
+.title-container img {
+    transform: rotate(180deg);
+}
+@media (max-width: 640px) {
+    .product-detail {
+        width: 100%;
+    }
+}
